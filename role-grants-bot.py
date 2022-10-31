@@ -21,7 +21,7 @@ async def add_role(ctx):
     total_abuse_user = 0
     total_empty_discordId = 0
     total_not_joined = 0
-    empty_discordId_user_list = 'Chekc CSV File Line : '
+    empty_discordId_user_list = 'Check CSV File Line : '
     
     gleam_result = pd.read_csv('./gleam-result.csv', engine='python', dtype={"DiscordId" : object})
     gleam_result.head()

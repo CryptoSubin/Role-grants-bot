@@ -3,7 +3,7 @@ import math
 import discord
 from discord.ext import commands
 
-token = 'MTAzNDQ3NTE5MjEwMzIxNTE1NA.GD9YsL.KG1vJrJfOryFZpAGTb4uHTUTJy3QqpoJFdWupk'
+token = open("bot-token", "r").readline()
 
 bot = commands.Bot(command_prefix='!',intents=discord.Intents.all())
 
